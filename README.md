@@ -45,7 +45,7 @@ Empower educators with robust analytics and reporting tools to measure course ef
 We welcome contributions to enhance EduCasheer. Please follow our [contribution guidelines](CONTRIBUTING.md).
 
 ## License
-EduCasheer is licensed under the [@Musa](LICENSE).
+EduCasheer is licensed under [@Musa](LICENSE).
 
 ## Contact
 For inquiries and support, contact us at [Musavir Khaliq](musavir119s@gmail.com).
