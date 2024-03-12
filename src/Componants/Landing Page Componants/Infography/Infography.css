@@ -1,0 +1,44 @@
+/*! Infographic card styles //////////////////////////////////////////// */
+.infography {
+    height: 190px;
+    background-color: var(--light);
+}
+
+.infography .container .row .card-wrapper {
+    margin: 1rem;
+}
+
+.infography .container .row .card-wrapper .card {
+    margin: 0.5rem;
+    background: var(--heaven);
+    border-radius: 10px;
+}
+
+.infography .container .row .card-wrapper .card .card-body {
+    text-align: center;
+}
+
+.infography .container .row .card-wrapper .card .card-body img {
+    width: 50px;
+}
+
+.infography .container .row .card-wrapper .card .card-body h2,
+.infography .container .row .card-wrapper .card .card-body h3 {
+    font-family: "Raleway-bold";
+    margin-top: 0.6rem;
+    font-size: 1.5rem;
+
+}
+
+.c4 {
+    background-color: var(--kappel);
+
+}
+
+.c3 {
+    background-color: var(--radical-red);
+}
+
+.c2 {
+    background-color: var(--kappel_15);
+}

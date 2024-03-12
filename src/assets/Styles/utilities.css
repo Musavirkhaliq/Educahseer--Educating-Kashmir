@@ -1,0 +1,42 @@
+/*/==/=/=/=/=/=//==/=//= Utilities Center/////////////////////==/=/==/=/=/=/=/=/=/*/
+.flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.center-items {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.btn-prime {
+  background: var(--logo);
+  color: var(--heaven);
+}
+
+.btn-second {
+  background: var(--secondary);
+  color: var(--heaven);
+}
+
+.section-heading {
+  font-family: "Raleway-bold";
+  text-align: center;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.text-center {
+  text-align: center;
+}

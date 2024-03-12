@@ -1,0 +1,136 @@
+.Login {
+    /* background-image: url(../../assets/Images/kenny-eliason-1-aA2Fadydc-unsplash.jpg); */
+    background-size: cover;
+    background-image: linear-gradient(45deg,
+            rgba(245, 70, 66, 0.75),
+            rgba(8, 83, 156, 0.75)),
+        url('../../assets/Images/kenny-eliason-1-aA2Fadydc-unsplash.jpg');
+}
+
+.form {
+    width: 22rem;
+    margin: 1rem auto;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+
+
+}
+
+.form .forget-password {
+    float: right;
+}
+
+
+.form h2 {
+    /* width: 220px; */
+    font-family: sans-serif;
+    text-align: center;
+    color: var(--heaven);
+    font-size: 22px;
+    /* background-color: white; */
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    font-family: "Raleway-bold";
+
+
+}
+
+.form span {
+    color: var(--primary);
+    font-family: "Raleway-black";
+}
+
+.form .buttons button {
+    /* margin: 1rem; */
+    width: 50%;
+    border-radius: 0px;
+    color: var(--logo);
+    font-family: "Raleway-regular";
+}
+
+.form .buttons button:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+
+}
+
+.form input {
+    width: 100%;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: var(--gray-web);
+    border-radius: 4px;
+    font-family: "Raleway-medium";
+}
+
+.form .inputs label {
+    float: left;
+    margin: 0.5rem 0rem 0.2rem 0rem;
+    color: var(--heaven);
+    font-family: "Raleway-medium";
+}
+
+.form input:focus {
+    outline: none;
+}
+
+::placeholder {
+    color: var(--white_50);
+    font-family: Arial;
+}
+
+.btnn {
+    width: 100%;
+    height: 40px;
+    background: var(--primary);
+    margin-top: .2rem;
+    border-bottom-right-radius: 0;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: white;
+}
+
+.btnn a {
+    color: black;
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background: var(--kappel);
+
+    color: var(--heaven);
+}
+
+.btnn a:hover {
+    color: var(--heaven);
+}
+
+.form .link {
+    font-size: 17px;
+    padding-top: .3rem;
+    text-align: center;
+    color: var(--heaven);
+
+}
+
+.form .link a {
+    text-decoration: none;
+    color: var(--primary);
+    padding-top: 1rem;
+    padding-left: 7px;
+}
+
+.bottom p {
+    color: var(--heaven);
+}

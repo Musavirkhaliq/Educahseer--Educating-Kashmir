@@ -1,0 +1,60 @@
+/*! Template / Catogories section with three tiles */
+section.category {
+    margin: 3rem 0px;
+}
+
+.category .section-subtitle {
+    color: var(--primary);
+    font-family: "Raleway-black";
+    font-size: 1.7rem;
+    justify-content: center;
+    margin-bottom: .5rem;
+    color: var(--primary);
+
+}
+
+.span {
+    color: var(--primary);
+}
+
+.category .section-title {
+    color: var(--black);
+    font-family: "Raleway-bold";
+    font-size: 1.9rem;
+}
+
+
+
+.category-card {
+    padding: 50px 30px;
+    text-align: center;
+    margin: .5rem;
+}
+
+.category-card .card-icon {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    margin-inline: auto;
+    margin-block-end: 30px;
+}
+
+.category-card .card-text {
+    font-size: 1rem;
+    margin-block: 15px 25px;
+}
+
+.category-card .card-badge {
+    background-color: var(--secondary);
+    padding: 4px 18px;
+    max-width: max-content;
+    margin-inline: auto;
+    border-radius: 5px;
+    font-family: "Raleway-bold";
+    color: var(--heaven);
+}
+
+.cat-c1 {
+    background-color: var(--light);
+}

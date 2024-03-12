@@ -1,0 +1,75 @@
+/* Utilities Classes */
+/*/==/=/=/=/=/=//==/=//= Utilities Center/////////////////////==/=/==/=/=/=/=/=/=/*/
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-prime {
+  background: var(--logo);
+  color: var(--heaven);
+}
+
+.btn-second {
+  background: var(--secondary);
+  color: var(--heaven);
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+
+.magic-shadow {
+  position: relative;
+  /* background: var(--heaven); */
+}
+
+.magic-shadow::after {
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 69px;
+  background-image: url(/src/assets/icons/shadow.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -25px;
+  z-index: -1;
+}
+
+.magic-shadow-sm-service {
+  position: relative;
+  background: var(--heaven);
+}
+
+.magic-shadow-sm-service::after {
+  content: "";
+  display: block;
+  width: 92%;
+  height: 100px;
+  margin-right: rem;
+  background-image: url(/src/assets/icons/shadow-sm.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: -39px;
+  z-index: -1;
+}

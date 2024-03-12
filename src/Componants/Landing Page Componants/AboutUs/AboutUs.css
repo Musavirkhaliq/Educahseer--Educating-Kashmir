@@ -1,0 +1,56 @@
+/*! About Us section ////////////////////////////////////////////////////////////// */
+.about-us {
+    padding: 1rem;
+    margin: 3rem 0rem;
+}
+
+.about-us .container .about-wrapper .about-image img {
+    object-fit: cover;
+    height: 350px;
+    margin: .5rem auto;
+}
+
+.about-us .container .about-wrapper h1 {
+    color: var(--primary);
+    font-family: "Raleway-black";
+    font-size: 1.7rem;
+    justify-content: center;
+    font-family: "Raleway-black";
+    color: var(--primary);
+}
+
+.about-us .container .about-wrapper h3 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-family: "Raleway-bold";
+}
+
+.about-us .container .about-wrapper h3 span {
+    color: var(--primary);
+}
+
+.about-us .container .about-wrapper .text-info p {
+    color: var(--black);
+    font-family: "Raleway-medium";
+    font-size: 1rem;
+}
+
+.checkMarkAbout {
+    width: 25px;
+    height: 25px;
+    color: var(--primary);
+}
+
+.about-wrapper ul li {
+    color: var(--black);
+    font-size: 1rem;
+    font-family: "Raleway-medium";
+}
+
+
+.about-us .container .about-wrapper .b-heading {
+    padding: 1rem 1rem;
+    text-align: justify;
+    padding: 0rem 4rem;
+
+}

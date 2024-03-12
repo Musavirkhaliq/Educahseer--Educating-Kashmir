@@ -1,0 +1,27 @@
+[
+    "TopRatedCourses",
+    {
+        "id": "1",
+        "Title": "Course title 1",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ratings": "*****"
+    },
+    {
+        "id": "2",
+        "Title": "Course title 1",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ratings": "*****"
+    },
+    {
+        "id": "3",
+        "Title": "Course title 1",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ratings": "*****"
+    },
+    {
+        "id": "4",
+        "Title": "Course title 1",
+        "text": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+        "ratings": "*****"
+    }
+]

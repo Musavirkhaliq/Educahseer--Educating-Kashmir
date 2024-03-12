@@ -1,0 +1,19 @@
+.video-content {
+    margin-top: 6rem;
+}
+
+.video-header {
+    background-color: var(--primary);
+}
+
+.video-source {
+    position: relative;
+    height: 100vh;
+    width: 60vw;
+}
+
+.video-source video {
+    /* height: 100px; */
+    width: 100%;
+
+}

@@ -1,0 +1,133 @@
+.main-content {
+  flex-wrap: wrap;
+}
+
+.TopCourses {
+  background-color: var(--light);
+  margin-top: 4rem;
+}
+
+.TopCourses .course-heading {
+  padding: 3rem 0rem 1rem 0rem;
+}
+
+.TopCourses .content {
+  padding: 1rem;
+}
+
+.TopCourses .card-body {
+  background-color: var(--heaven);
+  border-radius: 0px 0px 10px 0px;
+  padding: .5rem;
+}
+
+
+.ratings {
+  position: relative;
+}
+
+.TopCourses .ratings .rating-wrapper {
+  width: 50px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 0px 50px 50px 0px;
+  ;
+  margin-bottom: .5rem;
+  z-index: 2;
+}
+
+.TopCourses .ratings .rating-wrapper span {
+  font-family: "Raleway-black";
+  font-size: 1.25rem;
+  text-align: center;
+  padding: .5rem;
+}
+
+.TopCourses .ratings .rating-image-wrapper {
+  background-color: rgb(0, 24, 16);
+  height: 30px;
+  /* max-width: 0px; */
+  margin-bottom: .5rem;
+  position: absolute;
+  left: 35px;
+  z-index: 1;
+
+}
+
+.TopCourses .ratings .rating-image-wrapper img {
+  height: 15px;
+  margin-top: .5rem;
+  margin-left: .5rem;
+
+}
+
+.TopCourses .course-card {
+  max-width: 300px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--light);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.TopCourses .course-card:hover {
+  transform: scale(1.05);
+}
+
+.TopCourses .course-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.TopCourses .rating {
+  font-size: 16px;
+  color: #f39c12;
+  margin-top: 10px;
+}
+
+.TopCourses .title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.TopCourses .subtitle {
+  font-size: 14px;
+  color: #555;
+  margin: 0 10px 10px;
+}
+
+.TopCourses .viewers {
+  margin-bottom: .5rem;
+}
+
+.TopCourses .viewers img {
+  padding: 0rem .5rem;
+}
+
+.TopCourses .viewers h5 {
+  font-family: "Raleway-black";
+  font-size: 1rem;
+  padding-top: .5rem;
+}
+
+.TopCourses .button {
+  padding: 6px 10px;
+  margin-left: 4.8rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #3f3535;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+.TopCourses .button:hover {
+  background-color: #2980b9;
+}

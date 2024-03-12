@@ -1,0 +1,56 @@
+/* !Hero Section CSS//////////////////////////////////////////////////////// */
+.hero {
+    position: relative;
+    margin-top: 6.3rem;
+}
+
+.c-item {
+    height: 400px;
+}
+
+.c-img {
+    height: 100%;
+    /* width: 500px; */
+    object-fit: cover;
+    filter: brightness(0.3);
+}
+
+.c-heading {
+    font-size: 1.9rem;
+    font-weight: 600;
+    font-family: "Raleway-black";
+    justify-content: center;
+}
+
+.c-captions {
+    text-align: center;
+    margin-top: 9rem;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+.c-item .c-captions .c-heading>span {
+    color: var(--primary);
+}
+
+.c-item .c-captions>p {
+    font-size: 0.9rem;
+    font-family: "Raleway-regular";
+    letter-spacing: 1px;
+}
+
+.c-item .c-captions .c-small {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.c-item .c-captions .btn {
+    padding: 0.5rem;
+    font-family: "Raleway-medium";
+    margin-top: 0.5rem;
+}
+
+.c-item .c-captions .btn:hover {
+    background: var(--logo);
+    color: var(--heaven);
+}

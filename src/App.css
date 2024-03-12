@@ -1,0 +1,227 @@
+/* Fonts */
+@font-face {
+  font-family: "Raleway-regular";
+  src: url(src/assets/fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-medium";
+  src: url(src/assets//fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-bold";
+  src: url(src/assets//fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-samibold";
+  src: url(src/assets//fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-black";
+  src: url(src/assets//fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-extrabold";
+  src: url(src/assets//fonts/Raleway-ExtraBold.ttf);
+}
+
+/* Colors Scheme Lookups used  */
+
+:root {
+  --primary: #01b3ef;
+  --secondary: #01427a;
+  --ternary: #6c6c6c;
+  --danger: #e14177;
+  --pure: #fefefe;
+  --light: #f0f0f0;
+  --heaven: #ffffff;
+  --footer: #20333f;
+  --black: #0c0c0d;
+  --logo: #ff5757;
+
+
+  /* External Colors */
+  --selective-yellow: hsl(42, 94%, 55%);
+  --eerie-black-1: hsl(0, 0%, 9%);
+  --eerie-black-2: hsl(180, 3%, 7%);
+  --quick-silver: hsl(0, 0%, 65%);
+  --radical-red: hsla(351, 83%, 61%, 0.473);
+  --light-gray: hsla(0, 0%, 80%, 0.58);
+  --isabelline: hsl(36, 33%, 94%);
+  --gray-x-11: hsl(0, 0%, 73%);
+  --kappel_15: hsla(170, 75%, 41%, 0.15);
+  --platinum: hsl(0, 0%, 90%);
+  --gray-web: hsl(0, 0%, 50%);
+  --black_80: hsla(0, 0%, 0%, 0.8);
+  --white_50: hsla(0, 0%, 100%, 0.5);
+  --black_50: hsla(0, 0%, 0%, 0.5);
+  --black_30: hsla(0, 0%, 0%, 0.3);
+  --kappel: hsla(170, 75%, 41%, 0.634);
+}
+
+/* General html page css  ////////////////
+//////////////////////////////////////////*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Raleway-medium";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  background: var(--pure);
+}
+
+/* !Top Navbar CSS rules/////////////////////////////////////////////////////////////////////////////
+  ///////////////////////////////////////////////////////////////// */
+
+
+.top-nav .container .contact img,
+.top-nav .container .time img {
+  width: 32px;
+}
+
+.top-nav .container .branding img {
+  width: 240px;
+}
+
+nav .top-nav .container .contact h5,
+nav .top-nav .container .time h5 {
+  font-family: "Raleway-bold";
+  margin-bottom: 0.1rem;
+  line-height: 1.2;
+  font-size: 1rem;
+}
+
+nav .top-nav .container .contact h6,
+nav .top-nav .container .time h6 {
+  font-family: "Raleway-bold";
+  margin-bottom: 0.15rem;
+  letter-spacing: 0.044rem;
+  font-size: 0.7rem;
+}
+
+nav .top-nav .container .contact img,
+nav .top-nav .container .time img {
+  margin-right: 0.7rem;
+}
+
+/*! Main Navbar CSS ////////////////////////////////////////////// */
+.navbar {
+  background-color: var(--primary);
+  position: fixed;
+  top: 0;
+  padding: 4px !important;
+}
+
+.navbar .container .links li a {
+  font-family: "Raleway-medium";
+  color: var(--pure);
+  font-size: 1.15rem;
+  text-decoration: none;
+  padding: 0.2rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar .container .links {
+  margin: 0px auto;
+}
+
+nav .navbar .links li a {
+  position: relative;
+  height: 100%;
+  color: var(--pure);
+  border-radius: 5px;
+}
+
+nav .navbar .links li a:after {
+  content: " ";
+  position: absolute;
+  background-color: var(--logo);
+  height: 4px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+  transition: 0.3s;
+}
+
+nav .navbar .links li a:hover:after {
+  width: 100%;
+  animation: 1s ease-in;
+
+}
+
+
+.sub-menu-1 {
+  display: none;
+}
+
+nav .navbar .links li:hover>.sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: var(--primary);
+  margin-top: 5px;
+  margin-left: -30px;
+}
+
+nav .navbar .links li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+nav .navbar .links li:hover .sub-menu-1 ul li {
+  width: 120px;
+  padding: 10px;
+  border-bottom: 1px dotted rgb(88, 151, 88);
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.login-signup .wrapper {
+  width: 160px;
+  border-radius: 20px;
+  border: 1px solid var(--secondary);
+  padding: 0.1rem;
+}
+
+.login-signup .wrapper .btn {
+  font-size: 1rem;
+  font-family: "Raleway-regular";
+}
+
+.login-signup .wrapper .btn2 {
+  color: white;
+}
+
+.login-signup .wrapper .btn2:hover {
+  background: var(--logo);
+  border-radius: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-signup .wrapper .btn1 {
+  background: var(--logo);
+  border-radius: 20px;
+  color: white;
+  transition: all 0.3s ease;
+}

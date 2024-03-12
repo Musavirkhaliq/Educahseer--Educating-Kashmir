@@ -1,0 +1,140 @@
+/*! Contact Us section Css //////////////////////////////////////////////////*/
+.contact-us {
+    position: relative;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8));
+    color: white;
+}
+
+.contact-us .content {
+    max-width: 40vw;
+    text-align: center;
+    justify-content: center;
+}
+
+.contact-us .content h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Raleway-black";
+    color: var(--primary);
+}
+
+.container-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.container-contact .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-contact .contact-info .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.container-contact .contact-info .box .icon {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.container-contact .contact-info .box .text {
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    flex-direction: column;
+    font-weight: 300;
+    background-color: rgba(255, 0, 238, 0);
+}
+
+.container-contact .contact-info .box .text h3 {
+    font-weight: 500;
+    color: #00bcd4;
+}
+
+.contact-form {
+    width: 60%;
+    padding: 25px;
+    margin: 2rem;
+    background: white;
+}
+
+.contact-form h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+}
+
+.contact-form .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contact-form .inputBox input,
+.contact-form .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+}
+
+.contact-form .inputBox span {
+    color: #333;
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    pointer-events: none;
+    transition: 0.3s;
+    color: #666;
+    padding: .5rem;
+}
+
+.contact-form .inputBox #submit {
+    padding-top: 8px;
+}
+
+.contact-form .inputBox input:focus~span,
+.contact-form .inputBox input:valid~span,
+.contact-form .inputBox textarea:focus~span,
+.contact-form .inputBox textarea:valid~span {
+    color: #e91e63;
+    font-size: 12px;
+    transform: translateY(-20px);
+}
+
+.contact-form .inputBox input[type="submit"] {
+    width: 100px;
+    background: #00bcd4;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form .inputBox input[type="submit"]:hover {
+    width: 100px;
+    background: #32da10;
+    color: #fff;
+    cursor: pointer;
+}

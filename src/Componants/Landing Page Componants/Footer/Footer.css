@@ -1,0 +1,103 @@
+/* Footer /////////////////////////////////////////////////////////////////////////////// */
+footer {
+    background: var(--footer);
+    padding: 4rem 1rem 0 0;
+}
+
+footer .contain {
+    display: flex;
+    color: var(--pure);
+    font-family: "Raleway-medium";
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+footer .box {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+footer .box ul {
+    list-style-type: none;
+}
+
+footer .box ul li a {
+    color: var(--pure);
+    transition: all 0.3s ease;
+}
+
+footer .box ul li a:hover {
+    color: var(--primary);
+}
+
+footer .box h3 {
+    border-bottom: 1px solid var(--primary);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer .box p {
+    line-height: 1.6rem;
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+    text-align: justify;
+    font-family: "Raleway-regular";
+}
+
+footer .box ul li {
+    margin-bottom: 1rem;
+}
+
+footer .box:nth-child(3)>div {
+    display: flex;
+    justify-content: center;
+}
+
+footer .box:nth-child(3) {
+    text-align: left;
+}
+
+footer .box:nth-child(3) h3 {
+    text-align: center;
+}
+
+footer .box:nth-child(3)>div img {
+    margin-right: 2rem;
+}
+
+footer .box:nth-child(3) ul li {
+    margin-bottom: 1.5rem;
+}
+
+.follow ul li a img {
+    margin-right: 1rem;
+}
+
+.follow ul li a .fa-brands {
+    margin-right: 1rem;
+}
+
+.rular {
+    color: var(--heaven);
+}
+
+/* footer copyrigt////////////////////// */
+footer .copyright {
+    padding: 1rem 0 0 0;
+    color: var(--pure);
+    text-align: center;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+footer .copyright img {
+    height: 50px;
+}
+
+footer .copyright p {
+    color: var(--pure);
+    font-family: "Raleway-samibold";
+    margin-top: 0.7rem;
+    font-size: 1rem;
+}
